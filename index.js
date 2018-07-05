@@ -19,7 +19,7 @@ app.get('/',function(req,res)
 })
 
 //INITIALIZING FACEBOOK TOKEN
-let token = "EAADvmNrEZB44BAInhtzSC3M81AgOMylaCtIdmpy0NuPUi2SdHk9UgBkcePB1SdIQuhYvjIyqdS8fsjSkppZCCbqhucoSfW53icBQZCZBt88fVN4tQEUXKWY21cZAKZBi47Sfbz48wD98IW2HS4OS6xZAii1cIm5guqoXJmUEyPK8AZDZD";
+let token = "EAADusqcRJA8BAHpj11nEGm7hZAJN1VDB1skwN4hInLEVFjcAKtYQn9UOi1WVvhrvnxcdEMAkQa6giByzucUnWOydl1jf0ZCPQZCqdZCZAQly0a5fi0fhspSeWDBdT7aCTWNxGWdsFVc9KzwWbG3okFd2MtZCWpoBO04BVgjAtaKAZDZD";
 
 //VERIFIYING FACEBOOK TOKEN
 app.get('/webhook/',function(req,res) {
